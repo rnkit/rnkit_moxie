@@ -23,7 +23,7 @@ $ react-native link rnkit_moxie
 
 3. Add `-ObjC` to `Build Settings -> Other Linker Flags`  
 
-4. Add `libz.tbd` to `libBuild phases -> Link Binary With Libraries`  
+4. Add `libz.tbd` to `Build phases -> Link Binary With Libraries`  
 
 5. Open the access to albums (some operations need to scan a qrcode): goto `Info.plist` file and add the privacy key according to your requirement:  
 
@@ -31,6 +31,10 @@ $ react-native link rnkit_moxie
 	Key: Privacy - Camera Usage Description   
 	Value: 需要您的同意,才能访问相册
 	```
+
+6. Add image files to your main project: go to `Build phases -> Copy Bundle Resouces`, click the add button, and then choose the images from `node_modules/RNKitMoXie/MoxieSDK/resouces`  
+
+(TODO: add resouces from bundle)
 
 ### Android
 
