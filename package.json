@@ -1,17 +1,17 @@
 {
-  "name": "rnkit_sensor",
+  "name": "rnkit_moxie",
   "description": "魔蝎",
   "main": "lib/index.js",
   "author": "carlos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "npm run test"
   },
-  "homepage": "https://github.com/rnkit/rnkit_sensor",
-  "bugs": "https://github.com/rnkit/rnkit_sensor/issues",
+  "homepage": "https://github.com/rnkit/rnkit_moxie",
+  "bugs": "https://github.com/rnkit/rnkit_moxie/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rnkit/rnkit_sensor"
+    "url": "https://github.com/rnkit/rnkit_moxie"
   },
   "keywords": [
     "react",
